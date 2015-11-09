@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/reside_top">
+
+        <TextView
+            android:id="@+id/tv_reside_login"
+            style="@style/reside_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@mipmap/comment_avatar"
+            android:text="@string/login_please" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_reside_collect"
+                style="@style/reside_text_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/collect_icon"
+                android:text="@string/collect" />
+
+            <TextView
+                android:id="@+id/tv_reside_download"
+                style="@style/reside_text_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/download_icon"
+                android:text="@string/download" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_reside_mainpage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/reside_center"
+        android:drawableLeft="@mipmap/menu_home"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/main_page"
+        android:textColor="@color/reside_top"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_reside"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+</LinearLayout>

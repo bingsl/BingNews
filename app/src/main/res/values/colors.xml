@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00000000</color>
+    <color name="colorPrimaryDark">#00a3ed</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+
+    <!--侧滑菜单-->
+    <color name="reside_top">#00a3ed</color>
+    <color name="reside_center">#f0f0f0</color>
+    <color name="reside_bottom">#ffffff</color>
+
+    <!--主页-->
+    <color name="mainpage_item_pressed">#cc00a3ed</color>
+</resources>

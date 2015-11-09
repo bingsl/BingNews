@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BingNews</string>
+    <string name="action_settings">Settings</string>
+
+    <!--侧滑菜单-->
+    <string name="login_please">请登录</string>
+    <string name="collect">我的收藏</string>
+    <string name="download">离线下载</string>
+    <string name="main_page">首页</string>
+
+    <!--主页-->
+    <string name="one_more_time_exit">再按一次退出</string>
+
+    <!--主题日报-->
+    <string name="editor">主编</string>
+    <string name="presenter">推荐者</string>
+
+    <!--ToolBar-->
+    <string name="action_login">登录</string>
+    <string name="action_model_daytime">白天模式</string>
+    <string name="action_model_nighttime">夜间模式</string>
+    <string name="action_share">分享</string>
+    <string name="action_collect">收藏</string>
+    <string name="action_comment">点评</string>
+    <string name="action_praise">赞</string>
+</resources>

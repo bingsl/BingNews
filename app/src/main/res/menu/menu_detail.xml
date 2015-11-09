@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:icon="@mipmap/abc_ic_menu_share_mtrl_alpha"
+        android:orderInCategory="70"
+        android:title="@string/action_share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_collect"
+        android:icon="@mipmap/collect"
+        android:orderInCategory="80"
+        android:title="@string/action_collect"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_comment"
+        android:icon="@mipmap/comment"
+        android:orderInCategory="90"
+        android:title="@string/action_comment"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_praise"
+        android:icon="@mipmap/praise"
+        android:orderInCategory="100"
+        android:title="@string/action_praise"
+        app:showAsAction="always" />
+</menu>
