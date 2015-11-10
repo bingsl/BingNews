@@ -115,6 +115,7 @@ public class ResideMenuFragment extends Fragment implements View.OnClickListener
             holder.textView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    ((MainActivity) context).getToolbar().setTitle(values.get(position).name);
                     ThemeFragment themeFragment = new ThemeFragment();
                     Bundle bundle = new Bundle();
                     bundle.putInt("id", values.get(position).id);
